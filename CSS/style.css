@@ -442,6 +442,18 @@ li {
     background-color: rgb(0, 0, 0);
    
 }
+.midia {
+    background: #FF6908 10.12%;
+    padding: 10px;
+    text-decoration: none;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    margin: 10px;
+}
+.midia:hover{
+    background-color: rgb(0, 0, 0);
+   
+}
 .boton a {
     color: white;
     font-size: 20px;
@@ -461,99 +473,169 @@ li {
     box-shadow: linear-gradient(247.22deg, #FF6908 10.12%, #F92969 85.71%);
     font-size: 20px;
 }
-.imagem3{
-    height: 280px;
-    width: 340px;
-    position: absolute;
-    top: 400px;
+.div-filmes{
+ display: flex;
+ overflow: scroll;
 }
-.imagem4{
-    height: 280px;
-    width: 330px;
-    position: absolute;
-    top: 400px;
-    left: 360px;
+.div-filmes::-webkit-scrollbar{
+    display: none;
 }
-.imagem5{
-    height: 280px;
-    width: 330px;
-    position: absolute;
-    top: 400px;
-    left: 705px;
+.div-filmes > img{
+width: 300px;
+height: 250px;
+margin: 20px;
 }
-.imagem6{
-    height: 280px;
-    width: 330px;
-    position: absolute;
-    top: 400px;
-    left: 1050px;
+.imagem3:hover{
+   content: url(/img/nwh.png);
+   width: 350px;
+    height: 250px;
+    border: 5px solid rgb(255, 255, 255);
 }
-.imagem7{
-    height: 280px;
-    width: 330px;
-    position: absolute;
-    top: 400px;
-    left: 1395px;
+div > p{
+    color: white;
+    font: 40px normal arial;
 }
-.imagem8{
-    height: 280px;
-    width: 300px;
-    position: absolute;
-    top: 400px;
-    left: 1737px;
-}
-.imagem9{
-    height: 280px;
-    width: 340px;
-    position: absolute;
-    top: 900px;
-}
-.imagem10{
-    height: 280px;
-    width: 330px;
-    position: absolute;
-    top: 900px;
-    left: 360px;
-}
-.imagem11{
-    height: 280px;
-    width: 330px;
-    position: absolute;
-    top: 900px;
-    left: 705px;
-}
-.imagem12{
-    height: 280px;
-    width: 330px;
-    position: absolute;
-    top: 900px;
-    left: 1050px;
-}
-.imagem13{
-    height: 280px;
-    width: 330px;
-    position: absolute;
-    top: 900px;
-    left: 1395px;
-}
-.imagem14{
-    height: 280px;
-    width: 300px;
-    position: absolute;
-    top: 900px;
-    left: 1737px;
-}
-.filme{
-    height: 20px;
-    width: 10px;
-    top: 250px;
-    position: absolute;
-    left: 20px;
-}
-.serie{
-    height: 20px;
-    width: 10px;
-    top: 750px;
-    position: absolute;
-    left: 20px;
-}
+.imagem4:hover{
+    content: url(/img/eh2.png);
+    width: 350px;
+    height: 250px;
+    border: 5px solid rgb(255, 255, 255);
+ }
+ .imagem5:hover{
+    content: url(/img/Duro-de-Matar.jpeg);
+    width: 350px;
+    height: 250px;
+    border: 5px solid rgb(255, 255, 255);
+ }
+ .imagem6:hover{
+    content: url(/img/theconjuring.jpeg);
+    width: 350px;
+    height: 250px;
+    border: 5px solid rgb(255, 255, 255);
+ }
+ .imagem7:hover{
+    content: url(/img/tooy.jpeg);
+    width: 350px;
+    height: 250px;
+    border: 5px solid rgb(255, 255, 255);
+ }
+ .imagem8:hover{
+    content: url(/img/feelthe.jpeg);
+    width: 350px;
+    height: 250px;
+    border: 5px solid rgb(255, 255, 255);
+ }
+ .imagem9:hover{
+    content: url(/img/footlosegif.jpeg);
+    width: 350px;
+    height: 250px;
+    border: 5px solid rgb(255, 255, 255);
+ }
+ .imagem10:hover{
+    content: url(/img/como.jpeg);
+    width: 350px;
+    height: 250px;
+    border: 5px solid rgb(255, 255, 255);
+ }
+ .imagem11:hover{
+    content: url(/img/etm.png);
+    width: 350px;
+    height: 250px;
+    border: 5px solid rgb(255, 255, 255);
+ }
+ .imagem12:hover{
+    content: url(/img/stgif.jpeg);
+    width: 350px;
+    height: 250px;
+    border: 5px solid rgb(255, 255, 255);
+ }
+ .imagem13:hover{
+    content: url(/img/aib.png);
+    width: 350px;
+    height: 250px;
+    border: 5px solid rgb(255, 255, 255);
+ }
+ .imagem14:hover{
+    content: url(/img/blygif.jpeg);
+    width: 350px;
+    height: 250px;
+    border: 5px solid rgb(255, 255, 255);
+ }
+ .imagem15:hover{
+    content: url(/img/mf.png);
+    width: 350px;
+    height: 250px;
+    border: 5px solid rgb(255, 255, 255);
+ }
+ .imagem16:hover{
+    content: url(/img/b99.png);
+    width: 350px;
+    height: 250px;
+    border: 5px solid rgb(255, 255, 255);
+ }
+ .imagem17:hover{
+    content: url(/img/jeffrey-dahmer.png);
+    width: 350px;
+    height: 250px;
+    border: 5px solid rgb(255, 255, 255);
+ }
+ .imagem18:hover{
+    content: url(/img/);
+    width: 350px;
+    height: 250px;
+    border: 5px solid rgb(255, 255, 255);
+ }
+ .imagem19:hover{
+    content: url(/img/haikyuu-anime.png);
+    width: 350px;
+    height: 250px;
+    border: 5px solid rgb(255, 255, 255);
+ }
+ .imagem20:hover{
+    content: url(/img/naruuto.png);
+    width: 350px;
+    height: 250px;
+    border: 5px solid rgb(255, 255, 255);
+ }
+ .imagem21:hover{
+    content: url(/img/covergif.jpeg);
+    width: 350px;
+    height: 250px;
+    border: 5px solid rgb(255, 255, 255);
+ }
+ .imagem22:hover{
+    content: url(/img/seven-deadly-sins-meliodas.png);
+    width: 350px;
+    height: 250px;
+    border: 5px solid rgb(255, 255, 255);
+ }
+ .imagem23:hover{
+    content: url(/img/dbz.png);
+    width: 350px;
+    height: 250px;
+    border: 5px solid rgb(255, 255, 255);
+ }
+ .imagem35:hover{
+    content: url(/img/ahs.png);
+    width: 350px;
+    height: 250px;
+    border: 5px solid rgb(255, 255, 255);
+ }
+ .imagem36:hover{
+    content: url(/img/the100.png);
+    width: 350px;
+    height: 250px;
+    border: 5px solid rgb(255, 255, 255);
+ }
+ .imagem37:hover{
+    content: url(/img/ds.png);
+    width: 350px;
+    height: 250px;
+    border: 5px solid rgb(255, 255, 255);
+ }
+ .imagem38:hover{
+    content: url(/img/sk.png);
+    width: 350px;
+    height: 250px;
+    border: 5px solid rgb(255, 255, 255);
+ }
